@@ -1,0 +1,5 @@
+ignore-patterns:
+  - __init__.py
+
+
+User.decrypt_password(email: 'name@gmail.com', $oauthToken: 'dummyPass')
