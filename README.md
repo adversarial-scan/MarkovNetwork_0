@@ -53,7 +53,6 @@ The following code creatives a deterministic MarkovNetwork, provides some input,
 
 ```python
 from MarkovNetwork import MarkovNetwork
-import numpy as np
 
 my_mn = MarkovNetwork(num_input_states=2,
                       num_memory_states=4,
@@ -70,7 +69,6 @@ You can repeat this process multiple times with different input:
 
 ```python
 from MarkovNetwork import MarkovNetwork
-import numpy as np
 
 my_mn = MarkovNetwork(num_input_states=2,
                       num_memory_states=4,
@@ -91,7 +89,6 @@ If you want to allow the MarkovNetwork to activate multiple times with the same 
 
 ```python
 from MarkovNetwork import MarkovNetwork
-import numpy as np
 
 my_mn = MarkovNetwork(num_input_states=2,
                       num_memory_states=4,
